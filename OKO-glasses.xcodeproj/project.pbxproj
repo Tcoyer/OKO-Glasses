@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC47F37C2BABCD4300B19E62 /* OKO_glassesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47F37B2BABCD4300B19E62 /* OKO_glassesApp.swift */; };
+		AC47F37E2BABCD4300B19E62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47F37D2BABCD4300B19E62 /* ContentView.swift */; };
+		AC47F3802BABCD4300B19E62 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47F37F2BABCD4300B19E62 /* Item.swift */; };
+		AC47F3822BABCD4400B19E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC47F3812BABCD4400B19E62 /* Assets.xcassets */; };
+		AC47F3852BABCD4400B19E62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC47F3842BABCD4400B19E62 /* Preview Assets.xcassets */; };
+		AC47F38F2BABCD4400B19E62 /* OKO_glassesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47F38E2BABCD4400B19E62 /* OKO_glassesTests.swift */; };
+		AC47F3992BABCD4400B19E62 /* OKO_glassesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47F3982BABCD4400B19E62 /* OKO_glassesUITests.swift */; };
+		AC47F39B2BABCD4400B19E62 /* OKO_glassesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47F39A2BABCD4400B19E62 /* OKO_glassesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC47F38B2BABCD4400B19E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC47F3702BABCD4300B19E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC47F3772BABCD4300B19E62;
+			remoteInfo = "OKO-glasses";
+		};
+		AC47F3952BABCD4400B19E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC47F3702BABCD4300B19E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC47F3772BABCD4300B19E62;
+			remoteInfo = "OKO-glasses";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC47F3782BABCD4300B19E62 /* OKO-glasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OKO-glasses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC47F37B2BABCD4300B19E62 /* OKO_glassesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OKO_glassesApp.swift; sourceTree = "<group>"; };
+		AC47F37D2BABCD4300B19E62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC47F37F2BABCD4300B19E62 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AC47F3812BABCD4400B19E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC47F3842BABCD4400B19E62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC47F38A2BABCD4400B19E62 /* OKO-glassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OKO-glassesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC47F38E2BABCD4400B19E62 /* OKO_glassesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OKO_glassesTests.swift; sourceTree = "<group>"; };
+		AC47F3942BABCD4400B19E62 /* OKO-glassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OKO-glassesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC47F3982BABCD4400B19E62 /* OKO_glassesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OKO_glassesUITests.swift; sourceTree = "<group>"; };
+		AC47F39A2BABCD4400B19E62 /* OKO_glassesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OKO_glassesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC47F3752BABCD4300B19E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC47F3872BABCD4400B19E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC47F3912BABCD4400B19E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC47F36F2BABCD4300B19E62 = {
+			isa = PBXGroup;
+			children = (
+				AC47F37A2BABCD4300B19E62 /* OKO-glasses */,
+				AC47F38D2BABCD4400B19E62 /* OKO-glassesTests */,
+				AC47F3972BABCD4400B19E62 /* OKO-glassesUITests */,
+				AC47F3792BABCD4300B19E62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC47F3792BABCD4300B19E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC47F3782BABCD4300B19E62 /* OKO-glasses.app */,
+				AC47F38A2BABCD4400B19E62 /* OKO-glassesTests.xctest */,
+				AC47F3942BABCD4400B19E62 /* OKO-glassesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC47F37A2BABCD4300B19E62 /* OKO-glasses */ = {
+			isa = PBXGroup;
+			children = (
+				AC47F37B2BABCD4300B19E62 /* OKO_glassesApp.swift */,
+				AC47F37D2BABCD4300B19E62 /* ContentView.swift */,
+				AC47F37F2BABCD4300B19E62 /* Item.swift */,
+				AC47F3812BABCD4400B19E62 /* Assets.xcassets */,
+				AC47F3832BABCD4400B19E62 /* Preview Content */,
+			);
+			path = "OKO-glasses";
+			sourceTree = "<group>";
+		};
+		AC47F3832BABCD4400B19E62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC47F3842BABCD4400B19E62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC47F38D2BABCD4400B19E62 /* OKO-glassesTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC47F38E2BABCD4400B19E62 /* OKO_glassesTests.swift */,
+			);
+			path = "OKO-glassesTests";
+			sourceTree = "<group>";
+		};
+		AC47F3972BABCD4400B19E62 /* OKO-glassesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC47F3982BABCD4400B19E62 /* OKO_glassesUITests.swift */,
+				AC47F39A2BABCD4400B19E62 /* OKO_glassesUITestsLaunchTests.swift */,
+			);
+			path = "OKO-glassesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC47F3772BABCD4300B19E62 /* OKO-glasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC47F39E2BABCD4400B19E62 /* Build configuration list for PBXNativeTarget "OKO-glasses" */;
+			buildPhases = (
+				AC47F3742BABCD4300B19E62 /* Sources */,
+				AC47F3752BABCD4300B19E62 /* Frameworks */,
+				AC47F3762BABCD4300B19E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OKO-glasses";
+			productName = "OKO-glasses";
+			productReference = AC47F3782BABCD4300B19E62 /* OKO-glasses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC47F3892BABCD4400B19E62 /* OKO-glassesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC47F3A12BABCD4400B19E62 /* Build configuration list for PBXNativeTarget "OKO-glassesTests" */;
+			buildPhases = (
+				AC47F3862BABCD4400B19E62 /* Sources */,
+				AC47F3872BABCD4400B19E62 /* Frameworks */,
+				AC47F3882BABCD4400B19E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC47F38C2BABCD4400B19E62 /* PBXTargetDependency */,
+			);
+			name = "OKO-glassesTests";
+			productName = "OKO-glassesTests";
+			productReference = AC47F38A2BABCD4400B19E62 /* OKO-glassesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC47F3932BABCD4400B19E62 /* OKO-glassesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC47F3A42BABCD4400B19E62 /* Build configuration list for PBXNativeTarget "OKO-glassesUITests" */;
+			buildPhases = (
+				AC47F3902BABCD4400B19E62 /* Sources */,
+				AC47F3912BABCD4400B19E62 /* Frameworks */,
+				AC47F3922BABCD4400B19E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC47F3962BABCD4400B19E62 /* PBXTargetDependency */,
+			);
+			name = "OKO-glassesUITests";
+			productName = "OKO-glassesUITests";
+			productReference = AC47F3942BABCD4400B19E62 /* OKO-glassesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC47F3702BABCD4300B19E62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AC47F3772BABCD4300B19E62 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AC47F3892BABCD4400B19E62 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AC47F3772BABCD4300B19E62;
+					};
+					AC47F3932BABCD4400B19E62 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AC47F3772BABCD4300B19E62;
+					};
+				};
+			};
+			buildConfigurationList = AC47F3732BABCD4300B19E62 /* Build configuration list for PBXProject "OKO-glasses" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC47F36F2BABCD4300B19E62;
+			productRefGroup = AC47F3792BABCD4300B19E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC47F3772BABCD4300B19E62 /* OKO-glasses */,
+				AC47F3892BABCD4400B19E62 /* OKO-glassesTests */,
+				AC47F3932BABCD4400B19E62 /* OKO-glassesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC47F3762BABCD4300B19E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC47F3852BABCD4400B19E62 /* Preview Assets.xcassets in Resources */,
+				AC47F3822BABCD4400B19E62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC47F3882BABCD4400B19E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC47F3922BABCD4400B19E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC47F3742BABCD4300B19E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC47F37E2BABCD4300B19E62 /* ContentView.swift in Sources */,
+				AC47F3802BABCD4300B19E62 /* Item.swift in Sources */,
+				AC47F37C2BABCD4300B19E62 /* OKO_glassesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC47F3862BABCD4400B19E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC47F38F2BABCD4400B19E62 /* OKO_glassesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC47F3902BABCD4400B19E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC47F3992BABCD4400B19E62 /* OKO_glassesUITests.swift in Sources */,
+				AC47F39B2BABCD4400B19E62 /* OKO_glassesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC47F38C2BABCD4400B19E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC47F3772BABCD4300B19E62 /* OKO-glasses */;
+			targetProxy = AC47F38B2BABCD4400B19E62 /* PBXContainerItemProxy */;
+		};
+		AC47F3962BABCD4400B19E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC47F3772BABCD4300B19E62 /* OKO-glasses */;
+			targetProxy = AC47F3952BABCD4400B19E62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC47F39C2BABCD4400B19E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC47F39D2BABCD4400B19E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC47F39F2BABCD4400B19E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OKO-glasses/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rey.OKO-glasses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC47F3A02BABCD4400B19E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OKO-glasses/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rey.OKO-glasses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC47F3A22BABCD4400B19E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rey.OKO-glassesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OKO-glasses.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OKO-glasses";
+			};
+			name = Debug;
+		};
+		AC47F3A32BABCD4400B19E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rey.OKO-glassesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OKO-glasses.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OKO-glasses";
+			};
+			name = Release;
+		};
+		AC47F3A52BABCD4400B19E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rey.OKO-glassesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OKO-glasses";
+			};
+			name = Debug;
+		};
+		AC47F3A62BABCD4400B19E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rey.OKO-glassesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OKO-glasses";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC47F3732BABCD4300B19E62 /* Build configuration list for PBXProject "OKO-glasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC47F39C2BABCD4400B19E62 /* Debug */,
+				AC47F39D2BABCD4400B19E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC47F39E2BABCD4400B19E62 /* Build configuration list for PBXNativeTarget "OKO-glasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC47F39F2BABCD4400B19E62 /* Debug */,
+				AC47F3A02BABCD4400B19E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC47F3A12BABCD4400B19E62 /* Build configuration list for PBXNativeTarget "OKO-glassesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC47F3A22BABCD4400B19E62 /* Debug */,
+				AC47F3A32BABCD4400B19E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC47F3A42BABCD4400B19E62 /* Build configuration list for PBXNativeTarget "OKO-glassesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC47F3A52BABCD4400B19E62 /* Debug */,
+				AC47F3A62BABCD4400B19E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC47F3702BABCD4300B19E62 /* Project object */;
+}
