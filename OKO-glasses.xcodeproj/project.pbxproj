@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03B3A5412BCF643200A1ECA6 /* ObstDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B3A5402BCF643200A1ECA6 /* ObstDetectionView.swift */; };
+		926AC3242BAD31F3008926DA /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AC3232BAD31F3008926DA /* CameraView.swift */; };
+		926AC3262BAD3241008926DA /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AC3252BAD3241008926DA /* CameraService.swift */; };
+		926AC3282BAD328E008926DA /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AC3272BAD328E008926DA /* CustomCameraView.swift */; };
+		926AC32A2BAD3317008926DA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AC3292BAD3317008926DA /* MainView.swift */; };
+		926AC32D2BAD3A3B008926DA /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 926AC32C2BAD3A3B008926DA /* GoogleGenerativeAI */; };
 		AC47F37C2BABCD4300B19E62 /* OKO_glassesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47F37B2BABCD4300B19E62 /* OKO_glassesApp.swift */; };
 		AC47F37E2BABCD4300B19E62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47F37D2BABCD4300B19E62 /* ContentView.swift */; };
 		AC47F3802BABCD4300B19E62 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47F37F2BABCD4300B19E62 /* Item.swift */; };
@@ -35,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03B3A5402BCF643200A1ECA6 /* ObstDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstDetectionView.swift; sourceTree = "<group>"; };
+		926AC3232BAD31F3008926DA /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		926AC3252BAD3241008926DA /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		926AC3272BAD328E008926DA /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
+		926AC3292BAD3317008926DA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		AC47F3782BABCD4300B19E62 /* OKO-glasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OKO-glasses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC47F37B2BABCD4300B19E62 /* OKO_glassesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OKO_glassesApp.swift; sourceTree = "<group>"; };
 		AC47F37D2BABCD4300B19E62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926AC32D2BAD3A3B008926DA /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +113,11 @@
 				AC47F37F2BABCD4300B19E62 /* Item.swift */,
 				AC47F3812BABCD4400B19E62 /* Assets.xcassets */,
 				AC47F3832BABCD4400B19E62 /* Preview Content */,
+				926AC3232BAD31F3008926DA /* CameraView.swift */,
+				926AC3252BAD3241008926DA /* CameraService.swift */,
+				926AC3272BAD328E008926DA /* CustomCameraView.swift */,
+				926AC3292BAD3317008926DA /* MainView.swift */,
+				03B3A5402BCF643200A1ECA6 /* ObstDetectionView.swift */,
 			);
 			path = "OKO-glasses";
 			sourceTree = "<group>";
@@ -146,6 +163,9 @@
 			dependencies = (
 			);
 			name = "OKO-glasses";
+			packageProductDependencies = (
+				926AC32C2BAD3A3B008926DA /* GoogleGenerativeAI */,
+			);
 			productName = "OKO-glasses";
 			productReference = AC47F3782BABCD4300B19E62 /* OKO-glasses.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +238,9 @@
 				Base,
 			);
 			mainGroup = AC47F36F2BABCD4300B19E62;
+			packageReferences = (
+				926AC32B2BAD3A3A008926DA /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = AC47F3792BABCD4300B19E62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,9 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926AC3262BAD3241008926DA /* CameraService.swift in Sources */,
+				926AC32A2BAD3317008926DA /* MainView.swift in Sources */,
 				AC47F37E2BABCD4300B19E62 /* ContentView.swift in Sources */,
 				AC47F3802BABCD4300B19E62 /* Item.swift in Sources */,
+				03B3A5412BCF643200A1ECA6 /* ObstDetectionView.swift in Sources */,
 				AC47F37C2BABCD4300B19E62 /* OKO_glassesApp.swift in Sources */,
+				926AC3282BAD328E008926DA /* CustomCameraView.swift in Sources */,
+				926AC3242BAD31F3008926DA /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,13 +454,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OKO-glasses/Preview Content\"";
+				DEVELOPMENT_TEAM = 4JD2N84N6P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Permission Required";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,13 +485,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OKO-glasses/Preview Content\"";
+				DEVELOPMENT_TEAM = 4JD2N84N6P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Permission Required";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -586,6 +620,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		926AC32B2BAD3A3A008926DA /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		926AC32C2BAD3A3B008926DA /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 926AC32B2BAD3A3A008926DA /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC47F3702BABCD4300B19E62 /* Project object */;
 }
